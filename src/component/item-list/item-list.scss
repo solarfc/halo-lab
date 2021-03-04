@@ -1,0 +1,87 @@
+.content {
+  box-sizing: border-box;
+  padding: 105px 0 115px;
+
+  p {
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    opacity: 0.5;
+  }
+
+  h2, h3 {
+    letter-spacing: -0.02em;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: 48px;
+    margin: 8px auto 40px;
+
+    &::first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  h2 {
+    font-size: 60px;
+    line-height: 72px;
+    position: relative;
+    padding-left: 21px;
+
+    span {
+      font-size: 30px;
+      line-height: 35px;
+      letter-spacing: -0.02em;
+      position: absolute;
+      top: 13px;
+      left: 0;
+    }
+  }
+
+  button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 15px 0;
+    background: #50DAA8;
+    border: 1px solid #50DAA8;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.35s ease-in-out;
+  }
+
+  &__block {
+
+    &-products {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    >button {
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      text-transform: none;
+      width: 235px;
+      margin: 30px auto 0;
+
+      &:hover {
+        color: #50DAA8;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: transparent;
+      }
+    }
+  }
+
+  &__form {
+
+  }
+}
